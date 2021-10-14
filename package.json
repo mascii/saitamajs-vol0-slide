@@ -1,0 +1,24 @@
+{
+  "name": "saitamajs_vol0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "fusuma start",
+    "start:prod": "fusuma start-prod",
+    "build": "fusuma build",
+    "deploy": "npm run build && fusuma deploy",
+    "pdf": "npm run build && fusuma pdf"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "fusuma": "^2.8.4"
+  },
+  "dependencies": {
+    "styled-components": "^5.3.1",
+    "wired-radio": "^2.1.0",
+    "wired-radio-group": "^2.1.0"
+  }
+}

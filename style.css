@@ -1,0 +1,36 @@
+.sns-box {
+  margin-top: 20px;
+}
+
+.my-sns-icon {
+  width: 20%;
+  border-radius: 50%;
+  margin: 1em;
+}
+.my-name {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.p-caniuse {
+  margin: 1em;
+  & img {
+    display: block;
+    width: 50%;
+  }
+}
+
+.inline-block {
+  display: inline-block !important
+}
+.p-visasq-issue-new {
+  margin: 2em;
+  & img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.p-demo-of-wired-elements {
+  margin: 2em;
+}
